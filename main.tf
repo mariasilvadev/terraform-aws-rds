@@ -21,7 +21,7 @@ resource "aws_db_subnet_group" "education" {
   subnet_ids = module.vpc.public_subnets
 
   tags = {
-    Name = "Education"
+    Name = 1.0.0
   }
 }
 
